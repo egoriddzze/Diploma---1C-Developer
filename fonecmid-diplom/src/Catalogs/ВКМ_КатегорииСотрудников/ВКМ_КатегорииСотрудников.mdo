@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0633983-38d4-4802-a2da-63410508f9ed">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0633983-38d4-4802-a2da-63410508f9ed">
   <producedTypes>
     <objectType typeId="3e3384a6-cc07-4bf2-b929-1a3c518fa75b" valueTypeId="38cc3ef4-1b8b-4dfb-8584-1f9beb486e4a"/>
     <refType typeId="9bc55a94-3c97-43d2-94d7-d1a124e1e698" valueTypeId="ecc885b1-f802-46d3-8ce9-69fcb08e579d"/>
@@ -32,6 +32,22 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e57788c7-9791-4ba4-836a-80788ada1a94">
+      <name>Специалист</name>
+      <description>Специалист</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="0ff1e234-e837-4498-99c4-a99c7310510b">
+      <name>АдминистративныйПерсонал</name>
+      <description>Административный персонал</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
 </mdclass:Catalog>
