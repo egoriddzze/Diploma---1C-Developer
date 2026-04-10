@@ -40,5 +40,12 @@
         <value>5</value>
       </code>
     </items>
+    <items id="e483cd30-e10b-4496-a4e9-d774a9291860">
+      <name>ПроцентЗаВыполненныеРаботы</name>
+      <description>Процент за выполненные работы</description>
+      <code xsi:type="core:StringValue">
+        <value>6</value>
+      </code>
+    </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>

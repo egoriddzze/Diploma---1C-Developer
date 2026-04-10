@@ -178,7 +178,6 @@
     <items xsi:type="form:FormField">
       <name>НачисленияКатегорияСотрудника</name>
       <id>26</id>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>

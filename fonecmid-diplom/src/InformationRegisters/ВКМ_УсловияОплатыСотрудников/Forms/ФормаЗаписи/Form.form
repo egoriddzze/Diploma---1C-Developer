@@ -90,6 +90,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Запись.КатегорияСотрудника</segments>
+    </dataPath>
     <handlers>
       <event>OnChange</event>
       <name>КатегорияСотрудникаПриИзменении</name>
@@ -109,10 +112,18 @@
       <id>8</id>
       <autoFill>true</autoFill>
     </contextMenu>
+    <type>InputField</type>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <textEdit>true</textEdit>
+    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>Оклад</name>
